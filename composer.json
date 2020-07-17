@@ -1,0 +1,29 @@
+{
+    "name": "coolelephant/baiducloud",
+    "description": "Baidu cloud api,百度云通用SDK接口,适用百度云全部产品",
+    "keywords": ["Baidu cloud SDK","Baidu cloud API","百度云SDK","百度云API"],
+    "type": "library",
+    "require": {
+        "php": ">=7.1",
+        "ext-fileinfo": "*",
+        "ext-openssl": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ALan",
+            "email": "zhangweili@kuxiangkj.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "CoolElephant\\HuaweiYun\\": "src/"
+      }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CoolElephant\\HuaweiYun\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev"
+}
